@@ -23,7 +23,7 @@
                                         </div>
                                         <div class="col ms-3">
                                             <h6 class="text-capitalize"><a href="{{ route('contact.show',['contact'=>$record->id]) }}" class="text-dark text-decoration-none">{{ $record->name }}</a></h6>
-                                            <p>+91 {{ $record->contact }}</p>
+                                            <p> {{ $record->contact }}</p>
                                         </div>
                                         <div class="col-2 pt-3">
                                             <a href="{{ route('contact.show',['contact'=>$record->id]) }}" class="text-muted text-decoration-none ">
